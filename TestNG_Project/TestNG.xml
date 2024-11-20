@@ -1,0 +1,60 @@
+<suite name="Orange HRM">
+ 
+      
+<test name="login vaild -1">
+<parameter name="uid" value="Admin"> </parameter>
+<parameter name="pwd" value="Qedge123!@#"></parameter>
+<classes>
+<class name="testcases.AdminLoginTestwithvalidCredentials"></class>
+</classes>
+</test>
+
+  
+<test name="login invaild -2"> 
+<parameter name="uid" value="abc"></parameter>
+<parameter name="pwd" value="avd"></parameter>
+<classes>
+
+<class name="testcases.AdminLoginTestwithInvaildCredentials"></class>
+</classes>
+</test>
+
+<test name = "employee reg -3">
+<parameter name="fname" value="sravan"> </parameter>
+<parameter name="Lname" value="kumar"></parameter>
+<classes>
+ <class name="testcases.Employeelist"></class>
+</classes>
+</test>
+
+<test name="User-4">
+<parameter name="empname" value="sravankumar1"></parameter>
+<parameter name="uname" value="Sravan4"></parameter>
+<parameter name="pass" value="Sravan@123456789"></parameter>
+<parameter name="cpass" value="Sravan@123456789"></parameter>
+<classes>
+<class name="testcases.Userlist">  </class>
+</classes>
+</test>
+
+
+
+<test name="employee-5">
+<parameter name="uname" value="Sravan"></parameter>
+<parameter name="pwd" value="Sravan@1234"></parameter>
+<classes>
+<class name ="testcases.EmpLogin"></class>
+</classes>
+</test>
+
+
+<!--
+<test name="flight registration-6">
+<parameter name="name" value="sravan"></parameter>
+<classes>
+<class name="testcases.Flighttestcase">   </class>
+</classes>
+</test>
+-->
+
+</suite>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-04T16:17:23 IST" name="stock account supplier" finished-at="2024-11-04T16:17:41 IST" duration-ms="17881">
+    <groups>
+    </groups>
+    <test started-at="2024-11-04T16:17:23 IST" name="supplier" finished-at="2024-11-04T16:17:41 IST" duration-ms="17881">
+      <class name="testcases.StockAcc">
+        <test-method is-config="true" signature="stocklaunch()[pri:0, instance:testcases.StockAcc@8f2ef19]" started-at="2024-11-04T16:17:19 IST" name="stocklaunch" finished-at="2024-11-04T16:17:23 IST" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stocklaunch -->
+        <test-method is-config="true" signature="stocklogin()[pri:0, instance:testcases.StockAcc@8f2ef19]" started-at="2024-11-04T16:17:23 IST" name="stocklogin" finished-at="2024-11-04T16:17:29 IST" duration-ms="5603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stocklogin -->
+        <test-method signature="stocksupplier(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StockAcc@8f2ef19]" started-at="2024-11-04T16:17:29 IST" name="stocksupplier" finished-at="2024-11-04T16:17:40 IST" duration-ms="11641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sravan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[H-NO:1-6-119/A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ssk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9948295941]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ssk@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9948295951]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stocksupplier -->
+        <test-method is-config="true" signature="stocklogout()[pri:0, instance:testcases.StockAcc@8f2ef19]" started-at="2024-11-04T16:17:40 IST" name="stocklogout" finished-at="2024-11-04T16:17:41 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stocklogout -->
+        <test-method is-config="true" signature="stockclose()[pri:0, instance:testcases.StockAcc@8f2ef19]" started-at="2024-11-04T16:17:41 IST" name="stockclose" finished-at="2024-11-04T16:17:41 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stockclose -->
+      </class> <!-- testcases.StockAcc -->
+    </test> <!-- supplier -->
+  </suite> <!-- stock account supplier -->
+</testng-results>
