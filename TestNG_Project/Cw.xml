@@ -1,0 +1,12 @@
+<suite name="Cw-suite">
+<test name="Cw-purchase header">
+<classes>
+
+<class name="testcases.Cwtest"></class>
+</classes>
+
+
+</test>
+
+
+</suite>
