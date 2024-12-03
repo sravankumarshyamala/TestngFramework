@@ -14,6 +14,7 @@ public class Cwp extends cwutils
 		driver.findElement(By.xpath("//span[text()=\"Purchase\"]")).click();
 		driver.findElement(By.linkText("Orders")).click();
 		driver.findElement(By.linkText("Purchase Order")).click();
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()=\"Add New\"]")).click();
 		Thread.sleep(2000);
 		
